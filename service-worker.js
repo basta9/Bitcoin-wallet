@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/signup/precache-manifest.ec5af211d9cfeb81a902206720f07ace.js"
+  "/Bitcoin-wallet/precache-manifest.224d356057f4920ec4a1ab723fde83f0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/signup/index.html", {
+workbox.routing.registerNavigationRoute("/Bitcoin-wallet/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
