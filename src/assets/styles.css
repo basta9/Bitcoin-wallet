@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit; 
+}
+
+ul {
+    margin: 0;
+    padding: 0; 
+}
+  
+li {
+    list-style: none; 
+}
+
+.main-view{
+    margin-top: 90px;
+}

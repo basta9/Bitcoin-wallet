@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Diavlo-bold";
+    src: url("../../assets/fonts/Diavlo_II_37/Diavlo_BOLD_II_37.otf") 
+  }
+ 
+  .nav-bar{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #222222;
+    color: white;
+    height: 75px;
+    font-family: Diavlo-bold;
+    letter-spacing: .5px;
+    .nav-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav-item{
+        margin: 0 5px;
+        &:hover{
+            opacity:.8;
+        }
+    }
+    
+        width: 90%;
+        margin: auto;
+        .logo{
+            display: flex;
+            height: 50px;
+            img{
+                width: 55px;
+                transform: rotateZ(-10deg);
+            }
+            div{
+                margin-top: 8px;
+            }
+            &:hover{
+                color: gold;
+            }
+        }
+    }
+}

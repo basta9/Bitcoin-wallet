@@ -1,0 +1,50 @@
+
+
+.editor-container{
+    width: 90%;
+    margin: auto;
+    font-family: Diavlo-bold;
+    .links-cont{
+        display: flex;
+        justify-content: flex-end;
+        width: 300px;
+        i, a{
+            img{
+                width: 28px;
+                margin-left: 5px;
+                &:hover{
+                    opacity: .8;
+                }
+            }
+        }
+    }
+    form{
+        margin-top: 15px;
+        width:300px;
+        font-size: 18px;
+        label{
+            display: flex;
+            justify-content: space-between;
+        }
+        input{
+            padding: 8px;
+            width: 60%;
+            border-radius: 5px;
+            border: 1px solid #222222;
+        }
+        button{
+            float: right;
+            margin-top: 15px;
+            padding: 10px;
+            font-family: Diavlo-bold;
+            border: none;
+            background: #222222;
+            color: white;
+            border-radius: 5px;
+            &:hover{
+                color: gold;
+                cursor: pointer;
+            }
+        }
+    }
+}

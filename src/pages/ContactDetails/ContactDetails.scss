@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Diavlo-bold";
+  src: url("../../assets/fonts/Diavlo_II_37/Diavlo_BOLD_II_37.otf") 
+}
+@font-face {
+  font-family: "Diavlo-light";
+  src: url("../../assets/fonts/Diavlo_II_37/Diavlo_LIGHT_II_37.otf") 
+}
+
+.contact-details{
+  width: 90%;
+  max-width: 600px;
+  margin:auto;
+  font-family: Diavlo-light;
+  .contact-details-body{
+    display: flex;
+    margin: 10px 0;
+    font-size: 13px;
+    img{
+      margin-right: 15px;
+      height: inherit;
+      object-fit: cover;
+    }
+    div{
+      overflow: hidden;
+      position: relative;
+      .contact-links{
+        position: absolute;
+        bottom: 0;
+        padding-right: 5px;
+      }
+      i{
+        color: rgb(67, 154, 235);
+      }
+      a{
+        img{
+          width: 20px;
+          &:hover{
+            opacity: .8;
+          }
+        }
+      }
+    }
+    .contact-details-row {
+      margin-bottom: 10px; 
+      b{
+        font-family: Diavlo-bold;
+      }
+    }
+  }
+  &>b{
+    font-family: Diavlo-bold;
+    font-size: 14px;
+    }
+}
+
+.contact-details-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px; 
+}
+.contact-details-header a:not(:last-child) {
+  margin: 0 10px 0 0; 
+}
+
+.moves-list-container, .transter-coins-container {
+  margin: 20px 0;
+}
+
+@media (min-width:450px){
+  .contact-details-row {
+    font-size: 16px;
+  }
+  i ,a{
+    font-size: 15px;
+  }
+}
+
+@media (min-width:700px){
+  .contact-details-body{
+    height: 200px;
+    img{
+      width: 150px;
+    }
+    .contact-details-row{
+      font-size: 20px;
+    }
+    i ,a{
+      font-size: 18px;
+    }
+  }
+      .contact-details >b{
+        font-size: 21px;
+        }
+}

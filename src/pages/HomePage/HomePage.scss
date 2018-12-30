@@ -1,0 +1,67 @@
+
+@font-face {
+  font-family: "Diavlo-bold";
+  src: url("../../assets/fonts/Diavlo_II_37/Diavlo_BOLD_II_37.otf") 
+}
+@font-face {
+  font-family: "Diavlo-light";
+  src: url("../../assets/fonts/Diavlo_II_37/Diavlo_LIGHT_II_37.otf") 
+}
+
+.home-page{
+  margin: auto;
+  width: 300px;
+  max-width: 90%;
+  border: 2px solid rgb(95, 78, 78);
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 20px;
+  font-family: Diavlo-light;
+  b{
+    font-family: Diavlo-bold;
+  }
+  &>b{
+    font-size: 18px;
+  }
+  .user-details {
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .profile-img{
+      align-self: center;
+      width: 100px;
+      height: 100px;
+    }
+    .user-name {
+      font-family: Diavlo-bold;
+      margin-bottom: 20px;
+      font-size: 26px;
+    }
+  }
+}
+
+
+
+.user-coins-count {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  b{
+    margin-right: 5px;
+  }
+}
+
+.user-coins-rate {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  b{
+    margin-right: 5px;
+  }
+}
+
+.user-coins-count img, .user-coins-rate img {
+  margin: 0 5px 0 0;
+}
+

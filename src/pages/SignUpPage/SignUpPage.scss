@@ -1,0 +1,33 @@
+
+.signup-form{
+    text-align: center;
+    input{
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 15px 0 0 15px ;
+        border: 1px solid #222222;
+        border-right: none;
+        &:focus{
+            outline: none;
+        }
+    }
+    button{
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 0 15px 15px 0 ;
+        border: none;
+        border: 1px solid #222222;
+        border-left: none;
+        background: #222222;
+        color: white;
+        &:hover{
+            color: gold;
+            cursor: pointer;
+    }
+    }
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: Diavlo-bold;
+    }

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Diavlo-bold";
+  src: url("../../assets/fonts/Diavlo_II_37/Diavlo_BOLD_II_37.otf") 
+}
+@font-face {
+  font-family: "Diavlo-light";
+  src: url("../../assets/fonts/Diavlo_II_37/Diavlo_LIGHT_II_37.otf") 
+}
+
+.contact-preview {
+  display: flex;
+  align-items: center;
+  font-family: Diavlo-bold;
+  padding: 15px;
+  height: 90px;
+  font-size: 18px;
+  line-height: 50px;
+  border-radius: 5px;
+  background-color: #f1f1f1; 
+  &:hover{
+    opacity: .8;
+  }
+}
+  
+.contact-preview img {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+  border-radius: 50%; 
+}

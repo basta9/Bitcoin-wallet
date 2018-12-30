@@ -1,0 +1,19 @@
+
+  @font-face {
+    font-family: "Diavlo-light";
+    src: url("../../assets/fonts/Diavlo_II_37/Diavlo_LIGHT_II_37.otf") 
+  }
+
+.filter{
+    input{
+        font-family: Diavlo-light;    
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid rgb(143, 142, 142);
+        color: rgb(180, 180, 180);
+        border-radius: 5px;
+        &:focus{
+            outline: none;
+        }
+    }
+}

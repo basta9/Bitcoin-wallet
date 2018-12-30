@@ -1,0 +1,47 @@
+
+.transfer-form{
+    padding: 10px;
+    background: lightgray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    p{
+        margin: 0;
+        margin-bottom: 10px;
+        font-family: Diavlo-bold;
+    }
+    input{
+        padding: 8px;
+        width: 65px;
+        border: none;
+        border-radius: 5px;
+    }
+    button{
+    border: none;
+    background: #222222;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    float: right;
+    &:hover{
+        color: gold;
+        cursor: pointer;
+    }
+}
+}
+@media (min-width:450px){
+    .transfer-form{
+        input{
+            width: 150px;
+        }
+    }
+}
+                        
+@media (min-width:600px){
+    .transfer-form{
+        font-size: 18px;
+        input{
+            width: 200px;
+        }
+    }
+}

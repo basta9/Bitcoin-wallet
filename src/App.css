@@ -1,0 +1,21 @@
+.app {
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 30px auto; 
+}
+
+.app .app-content {
+  padding: 20px 0 0 0;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+.app [class^="flaticon-"]:before,
+.app [class*=" flaticon-"]:before,
+.app [class^="flaticon-"]:after,
+.app [class*=" flaticon-"]:after {
+    margin: 0; 
+}
