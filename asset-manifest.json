@@ -1,7 +1,7 @@
 {
   "main.css": "/Bitcoin-wallet/static/css/main.b1a9271b.chunk.css",
-  "main.js": "/Bitcoin-wallet/static/js/main.e5ea1e8c.chunk.js",
-  "main.js.map": "/Bitcoin-wallet/static/js/main.e5ea1e8c.chunk.js.map",
+  "main.js": "/Bitcoin-wallet/static/js/main.e7cede42.chunk.js",
+  "main.js.map": "/Bitcoin-wallet/static/js/main.e7cede42.chunk.js.map",
   "static/css/1.ef7493ea.chunk.css": "/Bitcoin-wallet/static/css/1.ef7493ea.chunk.css",
   "static/js/1.db2905aa.chunk.js": "/Bitcoin-wallet/static/js/1.db2905aa.chunk.js",
   "static/js/1.db2905aa.chunk.js.map": "/Bitcoin-wallet/static/js/1.db2905aa.chunk.js.map",
@@ -10,9 +10,9 @@
   "static/media/exchange.png": "/Bitcoin-wallet/static/media/exchange.07f475d4.png",
   "static/media/NavBar.scss": "/Bitcoin-wallet/static/media/Diavlo_BOLD_II_37.aaadcee8.otf",
   "static/media/ContactPage.scss": "/Bitcoin-wallet/static/media/Diavlo_LIGHT_II_37.95d1c4c9.otf",
-  "static/css/1.ef7493ea.chunk.css.map": "/Bitcoin-wallet/static/css/1.ef7493ea.chunk.css.map",
   "static/css/main.b1a9271b.chunk.css.map": "/Bitcoin-wallet/static/css/main.b1a9271b.chunk.css.map",
+  "static/css/1.ef7493ea.chunk.css.map": "/Bitcoin-wallet/static/css/1.ef7493ea.chunk.css.map",
   "index.html": "/Bitcoin-wallet/index.html",
-  "precache-manifest.224d356057f4920ec4a1ab723fde83f0.js": "/Bitcoin-wallet/precache-manifest.224d356057f4920ec4a1ab723fde83f0.js",
+  "precache-manifest.4d1bdc9fbd6c6ac7b6115bae16639658.js": "/Bitcoin-wallet/precache-manifest.4d1bdc9fbd6c6ac7b6115bae16639658.js",
   "service-worker.js": "/Bitcoin-wallet/service-worker.js"
 }

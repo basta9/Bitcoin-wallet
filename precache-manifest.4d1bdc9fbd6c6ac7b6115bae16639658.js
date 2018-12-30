@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e5ea1e8c093ba2844543",
+    "revision": "e7cede4243d118f4445c",
     "url": "/Bitcoin-wallet/static/css/main.b1a9271b.chunk.css"
   },
   {
-    "revision": "e5ea1e8c093ba2844543",
-    "url": "/Bitcoin-wallet/static/js/main.e5ea1e8c.chunk.js"
+    "revision": "e7cede4243d118f4445c",
+    "url": "/Bitcoin-wallet/static/js/main.e7cede42.chunk.js"
   },
   {
     "revision": "db2905aa6438789c43a0",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/Bitcoin-wallet/static/media/Diavlo_LIGHT_II_37.95d1c4c9.otf"
   },
   {
-    "revision": "16c19885a7d321363926b2e1baff6292",
+    "revision": "3bbb3213b51677622e66d0ed5dc2d347",
     "url": "/Bitcoin-wallet/index.html"
   }
 ];
